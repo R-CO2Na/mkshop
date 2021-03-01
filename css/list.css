@@ -1,0 +1,72 @@
+@charset "utf8";
+
+/* logo列表导航隐藏 */
+
+.top-wrap .top-list {
+    display: none;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+.thumbnail .simg {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail b {
+    color: #FFB245;
+    font-size: 18px;
+}
+
+.thumbnail .simg img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0 3px;
+}
+
+.thumbnail .simg img:hover {
+    border: 1px solid #FFB245;
+    margin: 0 3px;
+}
+
+.thumbnail {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    transform: translateY(-3px)
+}
+
+.thumbnail b {
+    float: left;
+    margin-left: 50px;
+}
+
+.thumbnail em {
+    display: block;
+    width: 59px;
+    overflow: hidden;
+    line-height: 24px;
+    text-decoration: line-through;
+}
+
+.pagination .first,
+.pagination .prev,
+.pagination .list,
+.pagination .next,
+.pagination .last {
+    cursor: pointer;
+    border-radius: 3px;
+}

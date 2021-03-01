@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* 版心 */
+
+.content-wrap {
+    width: 1280px;
+    margin: 20px auto;
+    padding: 0 71px;
+}
+
+
+/* content */
+
+#content .list {
+    width: 100%;
+    min-height: 50px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px 10px;
+    margin-top: 25px;
+}
+
+#content .list .boxtop {
+    border-bottom: 1px solid #eee;
+    height: 30px;
+}
+
+#content .list .boxtop input {
+    float: left;
+    line-height: 25px;
+}
+
+#content .list .boxtop b {
+    line-height: 25px;
+    float: left;
+    padding: 0 5px;
+}
+
+#content .list .boxtop b:nth-child(2) {
+    margin-right: 430px;
+}
+
+#content .list .boxtop b:nth-child(3) {
+    margin-right: 65px;
+}
+
+#content .list .boxtop b:nth-child(4) {
+    margin-right: 140px;
+}
+
+#content .list .boxtop b:nth-child(5) {
+    margin-right: 135px;
+}
+
+#content .list .boxtop b:nth-child(6) {
+    margin-right: 50px;
+}
+
+#content .list .shop {
+    height: 150px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#content .list .shop input:first-child {
+    float: left;
+    margin-top: 45px;
+}
+
+#content .list .shop .sp {
+    float: left;
+    width: 40%;
+    margin-right: 60px;
+}
+
+#content .list .shop img {
+    width: 130px;
+    float: left;
+}
+
+#content .list .shop i {
+    float: left;
+    margin-top: 45px;
+    margin-right: 50px;
+}
+
+#content .list .shop i:nth-child(4) {
+    border: 1px solid #eee;
+    overflow: hidden;
+    margin-left: 27px;
+    margin-right: 100px;
+}
+
+#content .list .shop i input {
+    border: 0;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+#content .list .shop i button {
+    border: 0;
+    background: #f4ae05;
+}
+
+#content .list .shop .caozuo {
+    margin-left: 65px;
+    float: left;
+}
+
+#content .list .qk {
+    line-height: 25px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+    cursor: pointer;
+}
+
+#content .list .qh2 {
+    position: absolute;
+    left: 985px;
+    top: 273px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+#content .list h2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393938;
+    margin: 0 0 20px 0;
+}
+
+#content .list h2 span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #FDB14F;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#content .shr div {
+    width: 300px;
+    height: 100px;
+    border: 2px dotted red;
+}
+
+#content .shr div span {
+    display: block;
+    text-align: center;
+    width: 102px;
+    line-height: 20px;
+    border: 1px solid #eee;
+    background: #F5F5F5;
+    color: #C69B6C;
+    margin: 40px auto 0;
+    cursor: progress;
+}
+
+#content .zj div {
+    text-align: right;
+}
+
+#content .zj div u {
+    font-weight: bold;
+    color: #FF6702;
+}
+
+#content .zj div p:last-child u {
+    font-size: 20px;
+    color: #FF6702;
+}
+
+#content .zj button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background: #FDB14F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 155px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#content .sbox .lost span {
+    text-align: center;
+    color: #fdb14f !important;
+    font-size: 30px;
+    line-height: 40px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common2.css">
+</head>
+
+<body>
+    <div id="box">
+        <h2>注册会员</h2>
+        <div class="form-group">
+            <span for="inputEmail3" class="col-sm-2 control-label">用户名：</span>
+            <input type="text" class="form-control" name="user" id="exampleInputEmail1" placeholder="请输入2-16位字母或数字">
+            <span class="useryz">*</span>
+        </div>
+        <div class="form-group">
+            <span>邮箱：</span>
+            <input id="email" type="email" name="email" class="form-control" placeholder="请输入邮箱">
+            <span class="emailyz">*</span>
+        </div>
+        <div class="form-group">
+            <span>密码：</span>
+            <input id="pwd" type="password" class="form-control" placeholder="请输入密码">
+            <span class="mmyz">*</span>
+        </div>
+        <div class="form-group">
+            <span>确认密码：</span>
+            <input id="repwd" type="password" name="password" class="form-control">
+            <span class="mmpd">*</span>
+        </div>
+        <div class="form-group">
+            <span>手机：</span>
+            <input id="tell" type="text" name="tell" class="form-control" placeholder="请输入手机号">
+            <span class="tellyz">*</span>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input class="cb" type="checkbox">我已看过并接受《<a href="https://admin.qidian.qq.com/template/blue/website/agreement.html">用户协议</a>》
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default" disabled='false'>同意协议并注册</button>
+        <p>我已有账号，马上<a href="./mklog.html">登录</a></p>
+        <!-- </form> -->
+        <footer>
+            <div class="footer-info">
+                Copyright ©2007 - 2017 湖北知音动漫有限公司版权所有
+                <br> 网址：www.zymkshop.com 备案号：鄂ICP备17018280号
+            </div>
+        </footer>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/register.js"></script>
+    <!-- <script>
+        // 用户名验证
+        var user = document.querySelector('#exampleInputEmail1')
+        var useryz = document.querySelector('.useryz')
+        user.onblur = function() {
+                var str1 = this.value
+                var reg = /^[a-zA-Z]\w{1,15}$/
+                if (reg.test(str1)) {
+                    useryz.innerHTML = '√'
+                } else {
+                    useryz.innerHTML = '请输入2-16位字母或数字'
+                }
+            }
+            // 邮箱验证
+        var email = document.querySelector('#email')
+        var emailyz = document.querySelector('.emailyz')
+        email.onblur = function() {
+                var str1 = this.value
+                var reg = /[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+                if (reg.test(str1)) {
+                    emailyz.innerHTML = '√'
+                } else {
+                    emailyz.innerHTML = '邮箱格式不正确'
+                }
+            }
+            // 密码判断
+        var pwd = document.querySelector('#pwd')
+        var mmyz = document.querySelector('.mmyz')
+        var repwd = document.querySelector('#repwd')
+        var mmpd = document.querySelector('.mmpd')
+        repwd.onblur = function() {
+                // console.log(pwd.value);
+                if (pwd.value == repwd.value) {
+                    mmyz.innerHTML = '√'
+                    mmpd.innerHTML = '√'
+                } else {
+                    mmpd.innerHTML = '两次密码不一样'
+                }
+            }
+            // 手机号验证
+        var tell = document.querySelector('#tell')
+        var tellyz = document.querySelector('.tellyz')
+        tell.onblur = function() {
+            var str1 = this.value
+            var reg = / ^(13[0-9]|14[5|7]|15[0|1|2|3|4|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/
+            if (reg.test(str1)) {
+                tellyz.innerHTML = '√'
+            } else {
+                tellyz.innerHTML = '请输入正确的手机号'
+            }
+        }
+        
+    </script> -->
+</body>
+
+</html>

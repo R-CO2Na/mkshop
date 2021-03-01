@@ -1,0 +1,55 @@
+@charset "utf-8";
+#box {
+    width: 1280px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#box>h2 {
+    margin: auto;
+    font-weight: bold;
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#box .form-group {
+    width: 430px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#box .form-group span:nth-of-type(1) {
+    width: 91px;
+    height: 64px;
+    float: left;
+    text-align: right;
+    padding: 10px 5px 10px;
+    font-size: 16px;
+}
+
+#box .form-group span:nth-of-type(2) {
+    width: 89px;
+    height: 64px;
+    float: left;
+    text-align: left;
+    padding: 5px 0px 2px 3px;
+    font-size: 12px;
+    color: red;
+}
+
+#box .form-group input {
+    width: 250px;
+    height: 40px;
+    float: left;
+}
+
+#box .btn {
+    width: 250px;
+    line-height: 45px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-width: 0px;
+    background-color: #FDB14F;
+}

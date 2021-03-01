@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* box */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#box {
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    overflow: hidden;
+}
+
+.log-wrap {
+    width: 460px;
+    margin: 70px auto 0px;
+    padding: 0px 30px 30px 30px;
+    background: #fff;
+    overflow: hidden;
+}
+
+h2 {
+    line-height: 20px;
+    font-size: 20px !important;
+    padding-top: 20px;
+    font-weight: bold !important;
+    color: #555;
+    text-align: center;
+}
+
+.log-wrap img {
+    margin: 30px auto;
+}
+
+.log-wrap button {
+    width: 400px;
+    font-size: 20px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FDB14F;
+    border: 0;
+    border-radius: 0;
+}
+
+.log-wrap button:hover {
+    color: #fff;
+    background: #FDC172;
+}
+
+.log-wrap .log-link {
+    overflow: hidden;
+}
+
+.log-wrap .log-link a {
+    color: #333;
+    margin-top: 16px;
+}
+
+.log-wrap .other {
+    background: url(../images/dian.gif) center center repeat-x;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.log-wrap .other span {
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.log-wrap .qb {
+    width: 95px;
+    height: 35px;
+    margin: auto;
+}
+
+.log-wrap .qb a {
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.log-wrap .qb img {
+    margin-top: 12px;
+}
+
+.log-wrap .qb a:first-child {
+    margin-right: 20px;
+}

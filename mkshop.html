@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #content .sbox .lost {
+        margin-bottom: 0;
+    }
+    
+    #content .sbox .lost span {
+        display: block;
+        text-align: center;
+        color: #fdb14f !important;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    #content .sbox .lost p {
+        text-align: center;
+        color: #fff;
+    }
+    
+    #content .sbox .lost .btn {
+        background: coral;
+        border: 0;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common2.css">
+    <link rel="stylesheet" href="./css/mkshop.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1>
+                <a href="./mkindex.html"><img class="logo" src="./images/logo.png"></a>
+            </h1>
+            <div class="h-r">
+                <span>用户中心</span> |
+                <span>退出</span>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div id="content">
+        <div class="content-wrap">
+            <div class="shopbox list">
+                <div class="boxtop">
+                    <b><input type="checkbox" class="allcheck" name="all"> 全选</b>
+                    <b>商品</b>
+                    <b>本店价</b>
+                    <b>购买数量</b>
+                    <b>小计</b>
+                    <b>操作</b>
+                </div>
+                <!-- 商品 s -->
+                <div class="sbox"></div>
+                <!-- 商品 e -->
+                <div class="qk">
+                    <span>清空所有商品</span>
+                    <span class="qh2">有些事不能勉强，没货就是没货</span>
+                </div>
+            </div>
+            <div class="shr list">
+                <h2><span>1</span>收货人信息</h2>
+                <div>
+                    <span class="shrxx">添加收货人信息</span>
+                </div>
+            </div>
+            <div class="ps list">
+                <h2><span>2</span>配送方式</h2>
+                <div>
+                    <label>
+                        <input type="checkbox">
+                        配送是否需要保价
+                    </label>
+                </div>
+            </div>
+            <div class="zf list">
+                <h2><span>3</span>支付方式</h2>
+            </div>
+            <div class="qt list">
+                <h2><span>4</span>其他信息</h2>
+            </div>
+            <div class="zj list">
+                <h2><span>5</span>费用总计</h2>
+                <div>
+                    <p>该订单完成后，您将获得<u class="jf"> 0 </u>积分，以及价值￥<u class="hb"> 0.00 </u>的红包。</p>
+                    <p>商品总价：￥<u class="spzj">23.8</u></p>
+                    <p>应付款金额：￥<u class="zj1">23.8</u></p>
+                </div>
+                <button type="submit">确认，提交订单</button>
+            </div>
+        </div>
+    </div>
+    <!-- </form> -->
+    <footer>
+        <div class="footer-info">
+            Copyright ©2007 - 2017 湖北知音动漫有限公司版权所有
+            <br> 网址：www.zymkshop.com 备案号：鄂ICP备17018280号
+        </div>
+    </footer>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/gwc.js"></script>
+</body>
+
+</html>

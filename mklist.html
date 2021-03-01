@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <style>
+        .pagination {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .h5,
+        ol {
+            display: inline-block;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .thumbnail img {
+            width: 230px;
+            height: 230px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header-wrap">
+            <div class="h-l">
+                <a href="./mklog.html">登录</a>
+                <a href="./register.html">注册</a>
+            </div>
+            <ul class="h-r">
+                <li><a href="./mkshop.html">我的订单</a></li>
+                <li>新手指南</li>
+                <li>收藏本站</li>
+                <li>微信扫一扫</li>
+                <img src="./images/ma.png">
+            </ul>
+        </div>
+    </div>
+    <div id="top">
+        <div class="top-wrap">
+            <a href="./mkindex.html"><img class="logo" src="./images/logo.png"></a>
+            <div class="top-list">
+                <ul>
+                    <li class="li1 list">
+                        <div class="cb">
+                            <i></i>
+                            <a href="">小说</a>
+                        </div>
+                        <div class="list-box box1">
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="./images/no_picture.gif"> 全部小说
+                                </a>
+                            </div>
+                            <span>本类品牌</span>
+                        </div>
+                    </li>
+                    <li class="li2 list">
+                        <div class="cb">
+                            <i></i>
+                            <a href="">绘本</a>
+                        </div>
+                        <div class="list-box box2">
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat7.jpg"> 知音漫客
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat8.jpg"> 漫客绘心
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat9.jpg"> 漫客绘意
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat10.jpg"> 漫客小说绘
+                                </a>
+                            </div>
+
+                            <span>本类品牌</span>
+                        </div>
+                    </li>
+                    <li class="li3 list">
+                        <div class="cb">
+                            <i></i>
+                            <a href="">杂志</a>
+                        </div>
+                        <div class="list-box box2">
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="./images/no_picture.gif"> 全部绘本
+                                </a>
+                            </div>
+                            <span>本类品牌</span>
+                        </div>
+                    </li>
+                    <li class="li4 list">
+                        <div class="cb">
+                            <i></i>
+                            <a href="">周边</a>
+                        </div>
+                        <div class="list-box box4">
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat29.jpg"> 天行轶事
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat30.jpg"> 斗破苍穹
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat32.jpg"> 勇者是女孩
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat33.jpg"> 哑舍
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat34.jpg"> 暴走邻家
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat35.jpg"> 都市喵奇谭
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat36.jpg"> 偷星九月天
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat31.jpg"> MK独家周边
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat37.jpg"> 浮生物语
+                                </a>
+                            </div>
+                            <span>本类品牌</span>
+                        </div>
+                    </li>
+                    <li class="li5 list">
+                        <div class="cb">
+                            <i></i>
+                            <a href="">漫画</a>
+                        </div>
+                        <div class="list-box box5">
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat25.jpg"> 斗破苍穹
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat26.jpg"> 天行轶事
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat15.jpg"> 龙族
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat28.jpg"> 哑舍
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat38.jpg"> 浪漫传说
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat36.jpg"> 偷星九月天
+                                </a>
+                            </div>
+                            <div class="book-box">
+                                <a class="book">
+                                    <img src="http://www.zymkshop.com/themes/ec36_01/images/ad/cat27.jpg"> 更多漫画
+                                </a>
+                            </div>
+                            <span>本类品牌</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="t-nav">
+                <li><a href="./mklist.html">热门周边</a></li>
+                <li><a href="./mklist.html">最热漫画</a></li>
+                <li><a href="./mklist.html">优秀小说</a></li>
+            </ul>
+            <div class="t-src">
+                <input type="text" value="请输入关键字">
+                <button></button>
+            </div>
+
+        </div>
+    </div>
+    <!-- contant -->
+    <div class="container">
+        <div class="row"></div>
+        <div class="pagination"></div>
+    </div>
+    <!-- right-nav -->
+    <div id="right-nav">
+        <ul>
+            <li>
+                <a href="./mkshop.html">
+                    <i class="ioc gwc">
+                        购<br>
+                        物<br>
+                        车<br>
+                    </i>
+                </a>
+            </li>
+            <li>
+                <i class="ioc zxxs">
+                在线<br>
+                销售
+            </i>
+            </li>
+            <li>
+                <i class="ioc wx">
+                    微信
+                </i>
+                <p>
+                    <img src="http://www.zymkshop.com/themes/ec36_01/images/fudao.png" alt="">
+                </p>
+            </li>
+            <li>
+                <i class="ioc fh">
+                    <a href="./mkindex.html">
+                    返回</a>
+                </i>
+            </li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer-wrap">
+            <div class="row f-top">
+                <div class="col-md-2">知音漫客旗舰店</div>
+                <div class="col-md-2">知音动漫图书官方店</div>
+                <div class="col-md-2">漫客读书</div>
+                <div class="col-md-2">馒头官微</div>
+                <div class="col-md-2">知音漫客官微</div>
+                <div class="col-md-2">筑梦二次元</div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/pagination.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/list.js"></script>
+</body>
+
+</html>

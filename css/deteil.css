@@ -1,0 +1,178 @@
+    @charset "utf-8";
+    /* logo列表导航隐藏 */
+    
+    .top-wrap .top-list {
+        display: none;
+    }
+    
+    .container {
+        width: 1280px !important;
+        margin-top: 20px;
+    }
+    /* 放大镜 */
+    
+    #tsShopContainer {
+        margin-right: 460px;
+    }
+    /* 侧边信息 */
+    
+    .media-body>h3 {
+        text-align: left;
+        font-size: 28px;
+        font-weight: bold;
+        width: 100%;
+        line-height: 30px;
+        color: #333;
+        border-bottom: 1px solid #EEEEEE;
+        padding-bottom: 20px;
+    }
+    
+    .media-body>h2 {
+        font-size: 28px;
+        font-weight: normal;
+        color: #ff3300;
+        border-bottom: 1px solid #EEEEEE;
+        padding-bottom: 5px;
+        line-height: 50px;
+    }
+    
+    .media-body .fd30_ulinfo li {
+        position: relative;
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+        float: none;
+        clear: both;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .qh {
+        position: absolute;
+        left: 140px;
+        top: 27px;
+        font-weight: bold;
+        font-size: 14px;
+        color: red;
+        display: none;
+    }
+    
+    .media-body .fd30_ulinfo strong {
+        color: #999;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .li_number input {
+        border: 1px solid #ccc;
+        padding: 0px;
+        margin: 0px;
+        line-height: 28px;
+        height: 28px;
+        background: #fff;
+        text-align: center;
+        width: 40px;
+        margin-left: 5px;
+    }
+    
+    .li_number .fd30_j {
+        display: block;
+        clear: both;
+    }
+    
+    .li_number .kc {
+        padding-left: 5px;
+        color: #999;
+        font-size: 14px;
+    }
+    
+    .media-body a {
+        display: block;
+        float: left;
+        margin-right: 20px;
+        min-width: 240px;
+        line-height: 34px;
+        height: 48px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        background-color: #FDB14F;
+        border: none;
+    }
+    
+    .media-body a:last-child {
+        min-width: 140px;
+        background-color: #999;
+        color: #FFF;
+    }
+    
+    .media-body a:last-child:hover {
+        background: #ADADAD;
+    }
+    
+    .media-body table {
+        border-bottom: 1px dotted #e5e5e5;
+        border-top: 1px dotted #e5e5e5;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    
+    .media-body tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+    
+    .media-body td {
+        text-align: center;
+    }
+    /* 详情 */
+    
+    .nav {
+        width: 1200px;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+    
+    .nav li {
+        float: left;
+        margin-right: 20px;
+        color: #757575;
+        border: 1px solid #DDDDDD;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .nav .active {
+        color: #FF6700;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .navbox {
+        text-align: center;
+    }
+    
+    .navbox img {
+        margin: auto;
+    }
+    
+    .navbox>div>span {
+        width: 30%;
+        font-weight: bold;
+        color: #000;
+        text-align: right;
+    }
+    
+    .navbox .box {
+        display: none;
+        min-height: 100px;
+        min-height: 100px;
+        /* background: red; */
+        overflow: hidden;
+    }
+    
+    .navbox #show {
+        display: block;
+    }
